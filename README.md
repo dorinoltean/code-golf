@@ -46,14 +46,15 @@ console.log(a||b)
 // evaluates first expression to falsy. Goes on to evaluate and write the result of second expression
 
 ```
+`&& operators are performed before the || operators `
+
 
 ## if(a||b)console.log(c)
 Print expression c if a || b
 
 ```js
 if(a||b)console.log(c)
-(a||b)&&console.log(c)
-a||b?console.log(c):0 // in case the result of this evaluation is ignore you can remove one character by using conditional operator
+a||b?console.log(c):0 // in case the result of this evaluation is ignored you can save one character by using conditional operator
 
 ```
 
